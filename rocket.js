@@ -1,4 +1,10 @@
-var Rocket = function(speed, power){
-  this.speed = 5;
-  this.power = mucho;
-};
+var Rocket = function (color, size) {
+  this.color = color;
+  this.size = size;
+
+  this.launch = function () {
+    console.log('3, 2, 1, blastoff!');
+  }
+}
+
+module.exports = Rocket;
